@@ -22,6 +22,9 @@ body{
     width: 100%;
     border-radius: 20px 0 0 20px;
 }
+.mobilepef{
+    display: none;
+}
 .textdiv{
     background-color: #fff;
     max-width: 300px;
@@ -86,17 +89,21 @@ small{
     }
     .imgdiv{
         width: 300px;
-        height: 350px;
+        height: auto;
         /* flex: 1; */
     }
     .pefimg{
-        width: 100%;
+        display: none;
+    }
+    .mobilepef{
+        display: inline;
         border-radius: 20px 20px 0 0;
+        width: 100%;
     }
     .textdiv{
         background-color: #fff;
         width: 300px;
-        height: 500px;
+        /* height: 500px; */
         /* flex: 1; */
         padding: 20px;
         border-radius: 0  0 20px 20px;
